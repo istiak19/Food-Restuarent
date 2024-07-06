@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 11px 22px;
+    color: rgb(240, 234, 234);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background: rgb(82, 195, 3);
+    cursor: pointer;
+}
+
+.hero {
+    /* width: 51%; */
+    height: 469.60px;
+    background-image: linear-gradient(00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero>.hero-content {
+    width: 522.75px;
+
+}
+
+.hero>.hero-content .p1 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.hero>.hero-content .h1 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.hero>.hero-content .p2 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 25px;
+}
+
+#card-box {
+    width: 674.52px;
+    margin: 100px auto;
+
+}
+
+#card-box>.container1 .p2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#card-box>.container1 .h2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    font-family: Work Sans;
+
+}
+
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>.image {
+    width: 250px;
+}
+
+.card>.image img {
+    width: 100%;
+}
+
+.card .shop {
+    border: 2px dashed blue;
+    border-radius: 10px;
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 10px;
+
+}
+
+.footer {
+    width: 100%;
+    /* height: 342px; */
+    background-image: url(../assets/social-bg.png);
+}
+
+
+.footer .h3 {
+    color: white;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.footer .p3 {
+    color: white;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin: 15px 0;
+}
+
+.footer .p4 {
+    color: white;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.hr {
+    margin: 0 50px;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    display: flex;
+    /* width: 30px;
+    height: 45px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.img {
+    width: 35px;
+    height: 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.about-img {
+    width: 80%;
+    height: 400px;
+}
+
+.h4 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.p5 {
+    color: rgb(50, 47, 47);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin: 15px 0;
+}
+
+.p6 {
+    color: rgb(207, 36, 36);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 15px 0;
+}
